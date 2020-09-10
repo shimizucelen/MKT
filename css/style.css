@@ -433,6 +433,19 @@ ul {
     z-index: 5;
 }
 
+.lab-card-pop {
+    position: relative;
+    margin-top: -50px;
+    padding: 50px 25px;
+    text-align: center;
+    background: #fce20e;
+    -webkit-box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
+    box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
 .lab-card {
     position: relative;
     margin-top: -50px;
@@ -445,6 +458,8 @@ ul {
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
 }
+
+
 
 .lab-card .icon {
     margin-bottom: 30px;
@@ -1497,12 +1512,12 @@ ul {
     font-weight: 500;
 }
 
-.cta{
+.cta {
     position: fixed;
     bottom: 0;
     right: 0;
     font-family: "Oswald",
-    sans-serif;
+        sans-serif;
     font-size: 15px;
     color: black;
     display: inline-block;
